@@ -4,7 +4,7 @@ output:
   flexdashboard::flex_dashboard:
     vertical_layout: scroll
     orientation: rows
-    css: dashboard_source_folder/css/basic_css.css
+    css: dashboard_source_folder/css/starlight_css.css
     theme: bootstrap
     
 ---

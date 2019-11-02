@@ -16,7 +16,12 @@ NOTE:
     
     Make an extreme change to a setting to see how it impacts the dashboard layout.
 */
-
+.navbar {
+  border-color:black;
+}
+.navbar-brand {
+color:black!important;
+}
 .navbar-inverse { 
     /* 
     This controls the navigation bar at the top of the html.

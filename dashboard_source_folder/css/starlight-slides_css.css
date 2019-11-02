@@ -16,53 +16,36 @@ NOTE:
     
     Make an extreme change to a setting to see how it impacts the dashboard layout.
 */
-.navbar { 
-  height: 100px;
-}
 
 .navbar-inverse { 
     /* 
     This controls the navigation bar at the top of the html.
     You can change the title fonnt/size/color, add a background image, whatev.
     */
- /* height: 100px; /* change to 140px and compare */
-  font-size: 100%; /* Size of the font that names the pages you can navigate between, not the title of the html */
+  height: 70px; /* change to 140px and compare */
+  font-size: 90%; /* Size of the font that names the pages you can navigate between, not the title of the html */
   background-color: white;
   /*font-family: "Courier New", Courier, monospace;*/
   position:fixed; /* if you change this to __________ the navigation bar will scroll with the rest of the 
   page rather than act as a separate component that is always present on the screen */
   z-index: 1; /*this puts the nav bar on top so that when you scroll, 
   the content scrolls behind the nav bar. change to -1 to see the difference. */
-
 }
 
-
-.navbar-title {
-  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+.navbar-title { background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
   color: red;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 150%;
   font-family: arial, helvetica;
-  margin: 5px auto;
   width: 600px;
   margin: 50px auto;
   text-align: center;
+  
+  
 }
 
-.navbar-brand {
-  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
-  color: red;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-weight: bold;
-  font-size: 80px;
-  font-family: arial, helvetica;
-  margin-top: 5px;
-  padding-top: 30px;
-  padding-bottom: 90px;
-}
 
 body {
     /* 
@@ -71,15 +54,12 @@ body {
     the font family assigned here unless you override it in the .navbar-inverse section
     */
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+margin-top: 20px;
 margin-left: 10px;
 margin-right: 10px;
-margin-top: 10px;
 }
 
-.level1 { /* This pushes the core of the dashboard lower to accomodate a taller navbar  */
-  margin-top: 50px;
-  
-}
+
 .footer {
      /* 
     This controls the footer.  The [0,0] assignment for [left, bottom] says to place the 

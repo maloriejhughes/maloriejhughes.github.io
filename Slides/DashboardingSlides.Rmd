@@ -6,7 +6,7 @@ output:
     ioslides_presentation:
         widescreen: true
         smaller: true
-        css: ../dashboard_source_folder/css/starlight_css.css
+        css: ../dashboard_source_folder/css/starlight-slides_css.css
         highlight: monochrome
         
 ---
@@ -65,6 +65,7 @@ slides > slide:not(.nobackground):before {
 }
 
 
+
 ```
 
 
@@ -72,23 +73,23 @@ slides > slide:not(.nobackground):before {
 
 ## Why should you DLAB? {.flexbox .vcenter}
 
-> - Pretty!
+- Pretty!
 
-> - Organized
+- Organized
 
-> - Interactive
+- Interactive
 
-> - Reproducible
+- Reproducible
 
-> - Free
+- Free
 
-> - *You get to use R*
+- *You get to use R*
 
-> - Flexible
+- Flexible
 
-> - Better visualizations (sorry gg)
+- Better visualizations (sorry gg)
 
-> - People will respect you
+- People will respect you
 
 
 
